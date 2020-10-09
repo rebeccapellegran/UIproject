@@ -1,8 +1,16 @@
- const url = 'https://icanhazdadjoke.com/api'
+ const url = 'https://pokeapi.co/api/v2/evolution-chain/'
+ fetch(url)
+ .then(res => {
+     return res.json();
+ })
+ .then(res => {
+     console.log("success!", res);
+ })
+ .catch(err => {
+     console.log("something went wrong...", err);
+ });
 
-// function getDadJokes
-// .then(resp => resp.json())
-// console.log(resp)
+
 var slideIndex = 1;
 showSlides(slideIndex);
 function changeSlides(n) {

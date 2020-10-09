@@ -6,7 +6,7 @@
     font-size: 15px;
   }
   
-  {
+  * {
     box-sizing: border-box;
  }
  .Slide {
@@ -28,7 +28,7 @@
     top: 50%;
     width: auto;
     padding: 10px;
-    background-color: grey(255, 255, 75);
+    background-color: rgb(75, 249, 255);
     color: rgb(50, 0, 116);
     font-weight: bolder;
     font-size: 18px;
